@@ -1,0 +1,101 @@
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          11393702  visualai   sbatch   jc5933  R      34:06      1 node018
+          11393699  visualai   sbatch   jc5933  R      54:54      1 node717
+          11393698  visualai   sbatch   jc5933  R    1:01:04      1 node001
+          11393669  visualai   sbatch   jc5933  R    1:04:18      1 node017
+          11393286  visualai   sbatch   jc5933  R    1:22:18      1 node904
+          11393208  visualai   sbatch   jc5933  R    1:26:36      1 node904
+          11392989  visualai   sbatch   jc5933  R    1:41:32      1 node001
+          11371412  visualai interact   jc5933  R 2-05:31:44      1 node027
+          11371161  visualai interact   jc5933  R 2-06:12:24      1 node018
+          11394879  visualai   sbatch   jc5933  R       0:00      1 node717
+          11394804  visualai   sbatch   jc5933  R       5:25      1 node000
+          11394806  visualai   sbatch   jc5933  R       5:25      1 node001
+Fri Apr 15 21:15:44 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 465.19.01    Driver Version: 465.19.01    CUDA Version: 11.3     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  On   | 00000000:03:00.0 Off |                  N/A |
+| 23%   29C    P8     9W / 250W |      2MiB / 11178MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Reading videos from folder:  ../../data/ucf101/videos/
+Extension of videos:  avi
+Total number of videos found:  13320
+JugglingBalls/v_JugglingBalls_g01_c02.avi
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c05.avi", frames ≈ 248
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c05.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 3.429s, decoding speed 72.3243fps, flow speed 0fps
+rgb 105 PlayingSitar/v_PlayingSitar_g04_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c05.avi", frames ≈ 276
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c05.avi", 276 frames
+1 videos (276 frames, 0 tvl1 flows) processed, using 4.887s, decoding speed 56.4764fps, flow speed 0fps
+rgb 0 JugglingBalls/v_JugglingBalls_g01_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c03.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c03.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 3.489s, decoding speed 71.3672fps, flow speed 0fps
+rgb 63 CleanAndJerk/v_CleanAndJerk_g01_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c03.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c03.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 4.58s, decoding speed 56.1135fps, flow speed 0fps
+rgb 42 HorseRace/v_HorseRace_g14_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c01.avi", frames ≈ 251
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c01.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 3.611s, decoding speed 69.5098fps, flow speed 0fps
+rgb 84 RopeClimbing/v_RopeClimbing_g19_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c04.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c04.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 4.145s, decoding speed 60.0724fps, flow speed 0fps
+rgb 21 HammerThrow/v_HammerThrow_g25_c05.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g01_c06.avi", frames ≈ 148
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g01_c06.avi", 148 frames
+1 videos (148 frames, 0 tvl1 flows) processed, using 2.559s, decoding speed 57.8351fps, flow speed 0fps
+rgb 147 SkateBoarding/v_SkateBoarding_g16_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g17_c07.avi", frames ≈ 149
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g17_c07.avi", 149 frames
+1 videos (149 frames, 0 tvl1 flows) processed, using 2.356s, decoding speed 63.2428fps, flow speed 0fps
+rgb 126 GolfSwing/v_GolfSwing_g14_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c01.avi", frames ≈ 250
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c01.avi", 250 frames
+1 videos (250 frames, 0 tvl1 flows) processed, using 3.372s, decoding speed 74.14fps, flow speed 0fps
+rgb 106 PlayingSitar/v_PlayingSitar_g06_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c01.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c01.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 3.556s, decoding speed 72.2722fps, flow speed 0fps
+rgb 1 JugglingBalls/v_JugglingBalls_g13_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g07_c02.avi", frames ≈ 100
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g07_c02.avi", 100 frames
+1 videos (100 frames, 0 tvl1 flows) processed, using 1.382s, decoding speed 72.3589fps, flow speed 0fps
+rgb 148 SkateBoarding/v_SkateBoarding_g14_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c03.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c03.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 4.031s, decoding speed 62.7636fps, flow speed 0fps
+rgb 85 RopeClimbing/v_RopeClimbing_g15_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c04.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c04.avi", 243 frames
+1 videos (243 frames, 0 tvl1 flows) processed, using 3.432s, decoding speed 70.8042fps, flow speed 0fps
+rgb 43 HorseRace/v_HorseRace_g23_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g15_c03.avi", frames ≈ 102
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g15_c03.avi", 102 frames
+1 videos (102 frames, 0 tvl1 flows) processed, using 1.711s, decoding speed 59.6143fps, flow speed 0fps
+rgb 127 GolfSwing/v_GolfSwing_g22_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c06.avi", frames ≈ 256
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c06.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 3.468s, decoding speed 73.8178fps, flow speed 0fps
+rgb 64 CleanAndJerk/v_CleanAndJerk_g25_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c01.avi", frames ≈ 191
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c01.avi", 191 frames
+1 videos (191 frames, 0 tvl1 flows) processed, using 3.053s, decoding speed 62.5614fps, flow speed 0fps
+rgb 22 HammerThrow/v_HammerThrow_g04_c03.avi None done

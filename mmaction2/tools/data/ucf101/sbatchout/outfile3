@@ -1,0 +1,734 @@
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+          11393669  visualai   sbatch   jc5933  R       0:00      1 node017
+          11393286  visualai   sbatch   jc5933  R      18:00      1 node904
+          11393208  visualai   sbatch   jc5933  R      22:18      1 node904
+          11392989  visualai   sbatch   jc5933  R      37:14      1 node001
+          11371412  visualai interact   jc5933  R 2-04:27:26      1 node027
+          11371161  visualai interact   jc5933  R 2-05:08:06      1 node018
+Fri Apr 15 20:11:26 2022       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 465.19.01    Driver Version: 465.19.01    CUDA Version: 11.3     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  On   | 00000000:63:00.0 Off |                  N/A |
+| 30%   33C    P8    22W / 350W |      1MiB / 24268MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Reading videos from folder:  ../../data/ucf101/videos/
+Extension of videos:  avi
+Total number of videos found:  13320
+JugglingBalls/v_JugglingBalls_g12_c01.avi
+"../../data/ucf101/videos/Bowling/v_Bowling_g17_c07.avi", frames ≈ 149
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g17_c07.avi", 149 frames
+1 videos (149 frames, 0 tvl1 flows) processed, using 1.088s, decoding speed 136.949fps, flow speed 0fps
+rgb 126 GolfSwing/v_GolfSwing_g11_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c05.avi", frames ≈ 276
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c05.avi", 276 frames
+1 videos (276 frames, 0 tvl1 flows) processed, using 1.728s, decoding speed 159.722fps, flow speed 0fps
+rgb 0 JugglingBalls/v_JugglingBalls_g12_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c05.avi", frames ≈ 248
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c05.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 1.743s, decoding speed 142.283fps, flow speed 0fps
+rgb 105 PlayingSitar/v_PlayingSitar_g10_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g01_c06.avi", frames ≈ 148
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g01_c06.avi", 148 frames
+1 videos (148 frames, 0 tvl1 flows) processed, using 0.895s, decoding speed 165.363fps, flow speed 0fps
+rgb 147 SkateBoarding/v_SkateBoarding_g06_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c03.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c03.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 1.493s, decoding speed 172.137fps, flow speed 0fps
+rgb 42 HorseRace/v_HorseRace_g24_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c04.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c04.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 8.416s, decoding speed 29.5865fps, flow speed 0fps
+rgb 21 HammerThrow/v_HammerThrow_g02_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c03.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c03.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 1.585s, decoding speed 157.098fps, flow speed 0fps
+rgb 63 CleanAndJerk/v_CleanAndJerk_g07_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c01.avi", frames ≈ 251
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c01.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 1.558s, decoding speed 161.104fps, flow speed 0fps
+rgb 84 RopeClimbing/v_RopeClimbing_g11_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g15_c03.avi", frames ≈ 102
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g15_c03.avi", 102 frames
+1 videos (102 frames, 0 tvl1 flows) processed, using 0.678s, decoding speed 150.442fps, flow speed 0fps
+rgb 127 GolfSwing/v_GolfSwing_g11_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c01.avi", frames ≈ 250
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c01.avi", 250 frames
+1 videos (250 frames, 0 tvl1 flows) processed, using 1.422s, decoding speed 175.809fps, flow speed 0fps
+rgb 106 PlayingSitar/v_PlayingSitar_g20_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c01.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c01.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 1.54s, decoding speed 166.883fps, flow speed 0fps
+rgb 1 JugglingBalls/v_JugglingBalls_g13_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c04.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c04.avi", 243 frames
+1 videos (243 frames, 0 tvl1 flows) processed, using 1.571s, decoding speed 154.679fps, flow speed 0fps
+rgb 43 HorseRace/v_HorseRace_g03_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c06.avi", frames ≈ 256
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c06.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 2.124s, decoding speed 120.527fps, flow speed 0fps
+rgb 64 CleanAndJerk/v_CleanAndJerk_g12_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g07_c02.avi", frames ≈ 100
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g07_c02.avi", 100 frames
+1 videos (100 frames, 0 tvl1 flows) processed, using 1.023s, decoding speed 97.7517fps, flow speed 0fps
+rgb 148 SkateBoarding/v_SkateBoarding_g05_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c01.avi", frames ≈ 191
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c01.avi", 191 frames
+1 videos (191 frames, 0 tvl1 flows) processed, using 1.676s, decoding speed 113.962fps, flow speed 0fps
+rgb 22 HammerThrow/v_HammerThrow_g22_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c03.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c03.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.21s, decoding speed 114.48fps, flow speed 0fps
+rgb 85 RopeClimbing/v_RopeClimbing_g17_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c04.avi", frames ≈ 259
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c04.avi", 259 frames
+1 videos (259 frames, 0 tvl1 flows) processed, using 1.332s, decoding speed 194.444fps, flow speed 0fps
+rgb 2 JugglingBalls/v_JugglingBalls_g12_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c04.avi", frames ≈ 265
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c04.avi", 265 frames
+1 videos (265 frames, 0 tvl1 flows) processed, using 1.782s, decoding speed 148.709fps, flow speed 0fps
+rgb 107 PlayingSitar/v_PlayingSitar_g09_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g17_c05.avi", frames ≈ 127
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g17_c05.avi", 127 frames
+1 videos (127 frames, 0 tvl1 flows) processed, using 0.997s, decoding speed 127.382fps, flow speed 0fps
+rgb 128 Surfing/v_Surfing_g25_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c04.avi", frames ≈ 250
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c04.avi", 250 frames
+1 videos (250 frames, 0 tvl1 flows) processed, using 1.723s, decoding speed 145.096fps, flow speed 0fps
+rgb 44 HorseRace/v_HorseRace_g20_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c01.avi", frames ≈ 233
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c01.avi", 233 frames
+1 videos (233 frames, 0 tvl1 flows) processed, using 1.391s, decoding speed 167.505fps, flow speed 0fps
+rgb 65 CleanAndJerk/v_CleanAndJerk_g12_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g22_c03.avi", frames ≈ 144
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g22_c03.avi", 144 frames
+1 videos (144 frames, 0 tvl1 flows) processed, using 1.136s, decoding speed 126.761fps, flow speed 0fps
+rgb 149 SkateBoarding/v_SkateBoarding_g04_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c05.avi", frames ≈ 238
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c05.avi", 238 frames
+1 videos (238 frames, 0 tvl1 flows) processed, using 1.485s, decoding speed 160.269fps, flow speed 0fps
+rgb 86 RopeClimbing/v_RopeClimbing_g06_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c02.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c02.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 1.73s, decoding speed 148.555fps, flow speed 0fps
+rgb 23 HammerThrow/v_HammerThrow_g24_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c01.avi", frames ≈ 262
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c01.avi", 262 frames
+1 videos (262 frames, 0 tvl1 flows) processed, using 2.073s, decoding speed 126.387fps, flow speed 0fps
+rgb 3 JugglingBalls/v_JugglingBalls_g25_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c07.avi", frames ≈ 252
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c07.avi", 252 frames
+1 videos (252 frames, 0 tvl1 flows) processed, using 1.534s, decoding speed 164.276fps, flow speed 0fps
+rgb 108 ThrowDiscus/v_ThrowDiscus_g14_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g16_c04.avi", frames ≈ 115
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g16_c04.avi", 115 frames
+1 videos (115 frames, 0 tvl1 flows) processed, using 0.735s, decoding speed 156.463fps, flow speed 0fps
+rgb 129 Surfing/v_Surfing_g15_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c03.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c03.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.08s, decoding speed 121.635fps, flow speed 0fps
+rgb 45 HorseRace/v_HorseRace_g25_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c03.avi", frames ≈ 248
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c03.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 1.665s, decoding speed 148.949fps, flow speed 0fps
+rgb 66 CleanAndJerk/v_CleanAndJerk_g24_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g23_c01.avi", frames ≈ 119
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g23_c01.avi", 119 frames
+1 videos (119 frames, 0 tvl1 flows) processed, using 0.983s, decoding speed 121.058fps, flow speed 0fps
+rgb 150 SkateBoarding/v_SkateBoarding_g22_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c07.avi", frames ≈ 269
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c07.avi", 269 frames
+1 videos (269 frames, 0 tvl1 flows) processed, using 2.061s, decoding speed 130.519fps, flow speed 0fps
+rgb 87 RopeClimbing/v_RopeClimbing_g22_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c01.avi", frames ≈ 264
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c01.avi", 264 frames
+1 videos (264 frames, 0 tvl1 flows) processed, using 2.462s, decoding speed 107.23fps, flow speed 0fps
+rgb 24 HammerThrow/v_HammerThrow_g04_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c04.avi", frames ≈ 250
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c04.avi", 250 frames
+1 videos (250 frames, 0 tvl1 flows) processed, using 1.6s, decoding speed 156.25fps, flow speed 0fps
+rgb 4 JugglingBalls/v_JugglingBalls_g22_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c04.avi", frames ≈ 258
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c04.avi", 258 frames
+1 videos (258 frames, 0 tvl1 flows) processed, using 2.427s, decoding speed 106.304fps, flow speed 0fps
+rgb 109 ThrowDiscus/v_ThrowDiscus_g06_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c03.avi", frames ≈ 246
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c03.avi", 246 frames
+1 videos (246 frames, 0 tvl1 flows) processed, using 1.859s, decoding speed 132.329fps, flow speed 0fps
+rgb 46 ApplyLipstick/v_ApplyLipstick_g16_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g19_c07.avi", frames ≈ 105
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g19_c07.avi", 105 frames
+1 videos (105 frames, 0 tvl1 flows) processed, using 0.72s, decoding speed 145.833fps, flow speed 0fps
+rgb 130 Surfing/v_Surfing_g22_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c04.avi", frames ≈ 245
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c04.avi", 245 frames
+1 videos (245 frames, 0 tvl1 flows) processed, using 2.305s, decoding speed 106.291fps, flow speed 0fps
+rgb 67 CleanAndJerk/v_CleanAndJerk_g16_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g02_c03.avi", frames ≈ 119
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g02_c03.avi", 119 frames
+1 videos (119 frames, 0 tvl1 flows) processed, using 1.195s, decoding speed 99.5816fps, flow speed 0fps
+rgb 151 SkateBoarding/v_SkateBoarding_g10_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c04.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c04.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 2.115s, decoding speed 120.095fps, flow speed 0fps
+rgb 25 HammerThrow/v_HammerThrow_g13_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c05.avi", frames ≈ 255
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c05.avi", 255 frames
+1 videos (255 frames, 0 tvl1 flows) processed, using 2.242s, decoding speed 113.738fps, flow speed 0fps
+rgb 5 JugglingBalls/v_JugglingBalls_g03_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c02.avi", frames ≈ 241
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c02.avi", 241 frames
+1 videos (241 frames, 0 tvl1 flows) processed, using 1.976s, decoding speed 121.964fps, flow speed 0fps
+rgb 88 ParallelBars/v_ParallelBars_g16_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c04.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c04.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 2.347s, decoding speed 106.093fps, flow speed 0fps
+rgb 110 ThrowDiscus/v_ThrowDiscus_g15_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c02.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c02.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 1.351s, decoding speed 187.269fps, flow speed 0fps
+rgb 47 ApplyLipstick/v_ApplyLipstick_g23_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c04.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c04.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 1.442s, decoding speed 171.29fps, flow speed 0fps
+rgb 68 CleanAndJerk/v_CleanAndJerk_g06_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g23_c07.avi", frames ≈ 138
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g23_c07.avi", 138 frames
+1 videos (138 frames, 0 tvl1 flows) processed, using 0.806s, decoding speed 171.216fps, flow speed 0fps
+rgb 131 Surfing/v_Surfing_g23_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c01.avi", frames ≈ 262
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c01.avi", 262 frames
+1 videos (262 frames, 0 tvl1 flows) processed, using 1.516s, decoding speed 172.823fps, flow speed 0fps
+rgb 6 Bowling/v_Bowling_g01_c05.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g01_c02.avi", frames ≈ 125
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g01_c02.avi", 125 frames
+1 videos (125 frames, 0 tvl1 flows) processed, using 0.935s, decoding speed 133.69fps, flow speed 0fps
+rgb 152 SkateBoarding/v_SkateBoarding_g01_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c02.avi", frames ≈ 234
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c02.avi", 234 frames
+1 videos (234 frames, 0 tvl1 flows) processed, using 1.449s, decoding speed 161.491fps, flow speed 0fps
+rgb 26 HammerThrow/v_HammerThrow_g08_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c05.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c05.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 1.435s, decoding speed 172.125fps, flow speed 0fps
+rgb 89 ParallelBars/v_ParallelBars_g07_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c03.avi", frames ≈ 251
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c03.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 1.286s, decoding speed 195.179fps, flow speed 0fps
+rgb 111 ThrowDiscus/v_ThrowDiscus_g06_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c05.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c05.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 1.818s, decoding speed 135.864fps, flow speed 0fps
+rgb 48 ApplyLipstick/v_ApplyLipstick_g16_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g05_c04.avi", frames ≈ 121
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g05_c04.avi", 121 frames
+1 videos (121 frames, 0 tvl1 flows) processed, using 1.42s, decoding speed 85.2113fps, flow speed 0fps
+rgb 132 Surfing/v_Surfing_g14_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c04.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c04.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.19s, decoding speed 115.525fps, flow speed 0fps
+rgb 69 Basketball/v_Basketball_g13_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g14_c02.avi", frames ≈ 117
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g14_c02.avi", 117 frames
+1 videos (117 frames, 0 tvl1 flows) processed, using 1.054s, decoding speed 111.006fps, flow speed 0fps
+rgb 153 SumoWrestling/v_SumoWrestling_g19_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c02.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c02.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 1.76s, decoding speed 143.75fps, flow speed 0fps
+rgb 27 HammerThrow/v_HammerThrow_g06_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c03.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c03.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.289s, decoding speed 110.529fps, flow speed 0fps
+rgb 7 Bowling/v_Bowling_g15_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c04.avi", frames ≈ 252
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c04.avi", 252 frames
+1 videos (252 frames, 0 tvl1 flows) processed, using 2.799s, decoding speed 90.0322fps, flow speed 0fps
+rgb 90 ParallelBars/v_ParallelBars_g13_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c02.avi", frames ≈ 250
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c02.avi", 250 frames
+1 videos (250 frames, 0 tvl1 flows) processed, using 1.912s, decoding speed 130.753fps, flow speed 0fps
+rgb 112 ThrowDiscus/v_ThrowDiscus_g07_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c04.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c04.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 2.188s, decoding speed 112.888fps, flow speed 0fps
+rgb 49 ApplyLipstick/v_ApplyLipstick_g01_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g06_c05.avi", frames ≈ 130
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g06_c05.avi", 130 frames
+1 videos (130 frames, 0 tvl1 flows) processed, using 1.205s, decoding speed 107.884fps, flow speed 0fps
+rgb 133 Surfing/v_Surfing_g19_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c05.avi", frames ≈ 260
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c05.avi", 260 frames
+1 videos (260 frames, 0 tvl1 flows) processed, using 2.203s, decoding speed 118.021fps, flow speed 0fps
+rgb 70 Basketball/v_Basketball_g15_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g22_c01.avi", frames ≈ 125
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g22_c01.avi", 125 frames
+1 videos (125 frames, 0 tvl1 flows) processed, using 1.049s, decoding speed 119.161fps, flow speed 0fps
+rgb 154 SumoWrestling/v_SumoWrestling_g13_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c01.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c01.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 2.155s, decoding speed 116.473fps, flow speed 0fps
+rgb 8 Bowling/v_Bowling_g05_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c02.avi", frames ≈ 256
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c02.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 1.77s, decoding speed 144.633fps, flow speed 0fps
+rgb 28 Biking/v_Biking_g13_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c01.avi", frames ≈ 255
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c01.avi", 255 frames
+1 videos (255 frames, 0 tvl1 flows) processed, using 1.622s, decoding speed 157.213fps, flow speed 0fps
+rgb 91 ParallelBars/v_ParallelBars_g18_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c02.avi", frames ≈ 260
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c02.avi", 260 frames
+1 videos (260 frames, 0 tvl1 flows) processed, using 1.384s, decoding speed 187.861fps, flow speed 0fps
+rgb 113 ThrowDiscus/v_ThrowDiscus_g08_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c02.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c02.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 1.83s, decoding speed 138.251fps, flow speed 0fps
+rgb 50 ApplyLipstick/v_ApplyLipstick_g20_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g17_c01.avi", frames ≈ 169
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g17_c01.avi", 169 frames
+1 videos (169 frames, 0 tvl1 flows) processed, using 1.195s, decoding speed 141.423fps, flow speed 0fps
+rgb 155 SumoWrestling/v_SumoWrestling_g10_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g02_c02.avi", frames ≈ 148
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g02_c02.avi", 148 frames
+1 videos (148 frames, 0 tvl1 flows) processed, using 1.023s, decoding speed 144.673fps, flow speed 0fps
+rgb 134 RockClimbingIndoor/v_RockClimbingIndoor_g15_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c04.avi", frames ≈ 210
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c04.avi", 210 frames
+1 videos (210 frames, 0 tvl1 flows) processed, using 1.664s, decoding speed 126.202fps, flow speed 0fps
+rgb 92 ParallelBars/v_ParallelBars_g20_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c02.avi", frames ≈ 248
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c02.avi", frames ≈ 261
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c02.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 1.572s, decoding speed 157.761fps, flow speed 0fps
+rgb 9 Bowling/v_Bowling_g01_c01.avi None done
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c02.avi", 261 frames
+1 videos (261 frames, 0 tvl1 flows) processed, using 1.712s, decoding speed 152.453fps, flow speed 0fps
+rgb 71 Basketball/v_Basketball_g08_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c03.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c03.avi", 243 frames
+1 videos (243 frames, 0 tvl1 flows) processed, using 1.488s, decoding speed 163.306fps, flow speed 0fps
+rgb 29 Biking/v_Biking_g08_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c01.avi", frames ≈ 242
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c01.avi", 242 frames
+1 videos (242 frames, 0 tvl1 flows) processed, using 2.526s, decoding speed 95.8036fps, flow speed 0fps
+rgb 114 Swing/v_Swing_g06_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c03.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c03.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 3.054s, decoding speed 83.1696fps, flow speed 0fps
+rgb 51 ApplyLipstick/v_ApplyLipstick_g23_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c02.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c02.avi", 243 frames
+1 videos (243 frames, 0 tvl1 flows) processed, using 3.13s, decoding speed 77.6358fps, flow speed 0fps
+rgb 93 ParallelBars/v_ParallelBars_g17_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g08_c03.avi", frames ≈ 100
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g08_c03.avi", 100 frames
+1 videos (100 frames, 0 tvl1 flows) processed, using 1.329s, decoding speed 75.2445fps, flow speed 0fps
+rgb 135 RockClimbingIndoor/v_RockClimbingIndoor_g17_c07.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g13_c01.avi", frames ≈ 118
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g13_c01.avi", 118 frames
+1 videos (118 frames, 0 tvl1 flows) processed, using 1.314s, decoding speed 89.8021fps, flow speed 0fps
+rgb 156 SumoWrestling/v_SumoWrestling_g08_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c06.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c06.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 2.558s, decoding speed 96.5598fps, flow speed 0fps
+rgb 10 Bowling/v_Bowling_g24_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c05.avi", frames ≈ 259
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c05.avi", 259 frames
+1 videos (259 frames, 0 tvl1 flows) processed, using 1.844s, decoding speed 140.456fps, flow speed 0fps
+rgb 72 Basketball/v_Basketball_g08_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c06.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c06.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 1.925s, decoding speed 131.948fps, flow speed 0fps
+rgb 30 Biking/v_Biking_g21_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c02.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c02.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 1.529s, decoding speed 162.852fps, flow speed 0fps
+rgb 115 Swing/v_Swing_g14_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c04.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c04.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 2.094s, decoding speed 117.956fps, flow speed 0fps
+rgb 94 FrisbeeCatch/v_FrisbeeCatch_g09_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c04.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c04.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 2.559s, decoding speed 96.5221fps, flow speed 0fps
+rgb 52 BoxingSpeedBag/v_BoxingSpeedBag_g13_c07.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g11_c07.avi", frames ≈ 144
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g11_c07.avi", 144 frames
+1 videos (144 frames, 0 tvl1 flows) processed, using 1.853s, decoding speed 77.7118fps, flow speed 0fps
+rgb 136 RockClimbingIndoor/v_RockClimbingIndoor_g02_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c05.avi", frames ≈ 244
+"../../data/ucf101/videos/Bowling/v_Bowling_g18_c02.avi", frames ≈ 144
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c05.avi", 244 frames
+1 videos (244 frames, 0 tvl1 flows) processed, using 1.711s, decoding speed 142.607fps, flow speed 0fps
+rgb 73 Basketball/v_Basketball_g09_c02.avi None done
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g18_c02.avi", 144 frames
+1 videos (144 frames, 0 tvl1 flows) processed, using 1.089s, decoding speed 132.231fps, flow speed 0fps
+rgb 157 SumoWrestling/v_SumoWrestling_g08_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c02.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c02.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 1.758s, decoding speed 143.914fps, flow speed 0fps
+rgb 11 Bowling/v_Bowling_g25_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c03.avi", frames ≈ 274
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c03.avi", 274 frames
+1 videos (274 frames, 0 tvl1 flows) processed, using 1.846s, decoding speed 148.429fps, flow speed 0fps
+rgb 31 Biking/v_Biking_g21_c06.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c03.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c03.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 1.317s, decoding speed 189.066fps, flow speed 0fps
+rgb 116 Swing/v_Swing_g08_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c04.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c04.avi", 239 frames
+1 videos (239 frames, 0 tvl1 flows) processed, using 2.155s, decoding speed 110.905fps, flow speed 0fps
+rgb 95 FrisbeeCatch/v_FrisbeeCatch_g13_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c04.avi", frames ≈ 244
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c04.avi", 244 frames
+1 videos (244 frames, 0 tvl1 flows) processed, using 2.734s, decoding speed 89.2465fps, flow speed 0fps
+rgb 53 BoxingSpeedBag/v_BoxingSpeedBag_g15_c06.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c04.avi", frames ≈ 256
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c04.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 2.539s, decoding speed 100.827fps, flow speed 0fps
+rgb 12 Bowling/v_Bowling_g17_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g10_c06.avi", frames ≈ 125
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g10_c06.avi", 125 frames
+1 videos (125 frames, 0 tvl1 flows) processed, using 0.996s, decoding speed 125.502fps, flow speed 0fps
+rgb 137 RockClimbingIndoor/v_RockClimbingIndoor_g21_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c05.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g14_c05.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 1.686s, decoding speed 146.501fps, flow speed 0fps
+rgb 74 Basketball/v_Basketball_g02_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g19_c03.avi", frames ≈ 90
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g19_c03.avi", 90 frames
+1 videos (90 frames, 0 tvl1 flows) processed, using 0.741s, decoding speed 121.458fps, flow speed 0fps
+rgb 158 SumoWrestling/v_SumoWrestling_g18_c06.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c06.avi", frames ≈ 248
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c06.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 2.089s, decoding speed 118.717fps, flow speed 0fps
+rgb 32 Biking/v_Biking_g17_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c03.avi", frames ≈ 245
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c03.avi", 245 frames
+1 videos (245 frames, 0 tvl1 flows) processed, using 1.433s, decoding speed 170.97fps, flow speed 0fps
+rgb 117 Swing/v_Swing_g05_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c03.avi", frames ≈ 259
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c03.avi", 259 frames
+1 videos (259 frames, 0 tvl1 flows) processed, using 1.957s, decoding speed 132.345fps, flow speed 0fps
+rgb 13 Bowling/v_Bowling_g18_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c03.avi", frames ≈ 251
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g01_c03.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 1.829s, decoding speed 137.233fps, flow speed 0fps
+rgb 96 FrisbeeCatch/v_FrisbeeCatch_g17_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c03.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c03.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 1.951s, decoding speed 131.727fps, flow speed 0fps
+rgb 54 BoxingSpeedBag/v_BoxingSpeedBag_g15_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g12_c01.avi", frames ≈ 79
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g12_c01.avi", 79 frames
+1 videos (79 frames, 0 tvl1 flows) processed, using 0.585s, decoding speed 135.043fps, flow speed 0fps
+rgb 138 RockClimbingIndoor/v_RockClimbingIndoor_g10_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c06.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c06.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.299s, decoding speed 110.048fps, flow speed 0fps
+rgb 33 Biking/v_Biking_g19_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g11_c05.avi", frames ≈ 174
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g11_c05.avi", 174 frames
+1 videos (174 frames, 0 tvl1 flows) processed, using 1.547s, decoding speed 112.476fps, flow speed 0fps
+rgb 159 Shotput/v_Shotput_g05_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c01.avi", frames ≈ 241
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c01.avi", 241 frames
+1 videos (241 frames, 0 tvl1 flows) processed, using 3.028s, decoding speed 79.5905fps, flow speed 0fps
+rgb 75 Basketball/v_Basketball_g16_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c04.avi", frames ≈ 241
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g24_c04.avi", 241 frames
+1 videos (241 frames, 0 tvl1 flows) processed, using 3.819s, decoding speed 63.1055fps, flow speed 0fps
+rgb 118 Swing/v_Swing_g11_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c03.avi", frames ≈ 246
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c03.avi", 246 frames
+1 videos (246 frames, 0 tvl1 flows) processed, using 1.653s, decoding speed 148.82fps, flow speed 0fps
+rgb 97 FrisbeeCatch/v_FrisbeeCatch_g09_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c02.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c02.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 1.759s, decoding speed 144.4fps, flow speed 0fps
+rgb 14 WalkingWithDog/v_WalkingWithDog_g15_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c01.avi", frames ≈ 256
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c01.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 2.081s, decoding speed 123.018fps, flow speed 0fps
+rgb 55 BoxingSpeedBag/v_BoxingSpeedBag_g21_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g13_c02.avi", frames ≈ 128
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g13_c02.avi", 128 frames
+1 videos (128 frames, 0 tvl1 flows) processed, using 0.982s, decoding speed 130.346fps, flow speed 0fps
+rgb 139 RockClimbingIndoor/v_RockClimbingIndoor_g09_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g10_c04.avi", frames ≈ 139
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c02.avi", frames ≈ 198
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g10_c04.avi", 139 frames
+1 videos (139 frames, 0 tvl1 flows) processed, using 1.156s, decoding speed 120.242fps, flow speed 0fps
+rgb 160 Shotput/v_Shotput_g03_c05.avi None done
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c02.avi", 198 frames
+1 videos (198 frames, 0 tvl1 flows) processed, using 1.367s, decoding speed 144.843fps, flow speed 0fps
+rgb 34 UnevenBars/v_UnevenBars_g23_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c02.avi", frames ≈ 260
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c02.avi", 260 frames
+1 videos (260 frames, 0 tvl1 flows) processed, using 1.525s, decoding speed 170.492fps, flow speed 0fps
+rgb 76 BlowDryHair/v_BlowDryHair_g21_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c05.avi", frames ≈ 237
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c05.avi", 237 frames
+1 videos (237 frames, 0 tvl1 flows) processed, using 1.665s, decoding speed 142.342fps, flow speed 0fps
+rgb 119 Swing/v_Swing_g11_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c01.avi", frames ≈ 235
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g13_c01.avi", 235 frames
+1 videos (235 frames, 0 tvl1 flows) processed, using 1.545s, decoding speed 152.104fps, flow speed 0fps
+rgb 98 FrisbeeCatch/v_FrisbeeCatch_g07_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c01.avi", frames ≈ 252
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g10_c01.avi", 252 frames
+1 videos (252 frames, 0 tvl1 flows) processed, using 1.666s, decoding speed 151.26fps, flow speed 0fps
+rgb 15 WalkingWithDog/v_WalkingWithDog_g01_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g03_c03.avi", frames ≈ 138
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g03_c03.avi", 138 frames
+1 videos (138 frames, 0 tvl1 flows) processed, using 1.059s, decoding speed 130.312fps, flow speed 0fps
+rgb 140 RockClimbingIndoor/v_RockClimbingIndoor_g16_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c01.avi", frames ≈ 232
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c01.avi", 232 frames
+1 videos (232 frames, 0 tvl1 flows) processed, using 2.174s, decoding speed 106.716fps, flow speed 0fps
+rgb 56 BoxingSpeedBag/v_BoxingSpeedBag_g07_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c03.avi", frames ≈ 209
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g17_c03.avi", 209 frames
+1 videos (209 frames, 0 tvl1 flows) processed, using 2.049s, decoding speed 102.001fps, flow speed 0fps
+rgb 35 UnevenBars/v_UnevenBars_g17_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g08_c06.avi", frames ≈ 156
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g08_c06.avi", 156 frames
+1 videos (156 frames, 0 tvl1 flows) processed, using 1.612s, decoding speed 96.7742fps, flow speed 0fps
+rgb 161 Shotput/v_Shotput_g10_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c03.avi", frames ≈ 232
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c03.avi", 232 frames
+1 videos (232 frames, 0 tvl1 flows) processed, using 2.21s, decoding speed 104.977fps, flow speed 0fps
+rgb 77 BlowDryHair/v_BlowDryHair_g24_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c02.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c02.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 4.143s, decoding speed 62.0323fps, flow speed 0fps
+rgb 120 Swing/v_Swing_g19_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c01.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c01.avi", 243 frames
+1 videos (243 frames, 0 tvl1 flows) processed, using 2.965s, decoding speed 81.9562fps, flow speed 0fps
+rgb 16 WalkingWithDog/v_WalkingWithDog_g03_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g04_c03.avi", frames ≈ 137
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g04_c03.avi", 137 frames
+1 videos (137 frames, 0 tvl1 flows) processed, using 1.317s, decoding speed 104.024fps, flow speed 0fps
+rgb 141 PlayingTabla/v_PlayingTabla_g11_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c01.avi", frames ≈ 253
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c01.avi", frames ≈ 246
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g07_c01.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 3.673s, decoding speed 68.881fps, flow speed 0fps
+rgb 57 BoxingSpeedBag/v_BoxingSpeedBag_g14_c01.avi None done
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c01.avi", 246 frames
+1 videos (246 frames, 0 tvl1 flows) processed, using 3.358s, decoding speed 73.2579fps, flow speed 0fps
+rgb 99 FrisbeeCatch/v_FrisbeeCatch_g11_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c02.avi", frames ≈ 258
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c02.avi", 258 frames
+1 videos (258 frames, 0 tvl1 flows) processed, using 3.629s, decoding speed 71.094fps, flow speed 0fps
+rgb 36 UnevenBars/v_UnevenBars_g14_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g09_c07.avi", frames ≈ 122
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g09_c07.avi", 122 frames
+1 videos (122 frames, 0 tvl1 flows) processed, using 1.418s, decoding speed 86.0367fps, flow speed 0fps
+rgb 162 Shotput/v_Shotput_g15_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c04.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g15_c04.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 1.688s, decoding speed 150.474fps, flow speed 0fps
+rgb 78 BlowDryHair/v_BlowDryHair_g01_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c04.avi", frames ≈ 264
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g20_c04.avi", 264 frames
+1 videos (264 frames, 0 tvl1 flows) processed, using 2.237s, decoding speed 118.015fps, flow speed 0fps
+rgb 58 BreastStroke/v_BreastStroke_g16_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g15_c05.avi", frames ≈ 92
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g15_c05.avi", 92 frames
+1 videos (92 frames, 0 tvl1 flows) processed, using 1.257s, decoding speed 73.1901fps, flow speed 0fps
+rgb 121 GolfSwing/v_GolfSwing_g24_c07.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g14_c03.avi", frames ≈ 129
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g14_c03.avi", 129 frames
+1 videos (129 frames, 0 tvl1 flows) processed, using 1.663s, decoding speed 77.5707fps, flow speed 0fps
+rgb 142 PlayingTabla/v_PlayingTabla_g20_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c03.avi", frames ≈ 249
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c03.avi", frames ≈ 252
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c03.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 1.913s, decoding speed 130.162fps, flow speed 0fps
+rgb 17 WalkingWithDog/v_WalkingWithDog_g01_c03.avi None done
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c03.avi", 245 frames
+1 videos (245 frames, 0 tvl1 flows) processed, using 2.383s, decoding speed 102.812fps, flow speed 0fps
+rgb 100 PlayingSitar/v_PlayingSitar_g19_c06.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c01.avi", frames ≈ 258
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g08_c01.avi", 258 frames
+1 videos (258 frames, 0 tvl1 flows) processed, using 1.923s, decoding speed 134.165fps, flow speed 0fps
+rgb 37 UnevenBars/v_UnevenBars_g15_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g05_c07.avi", frames ≈ 112
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g05_c07.avi", 112 frames
+1 videos (112 frames, 0 tvl1 flows) processed, using 0.878s, decoding speed 127.563fps, flow speed 0fps
+rgb 163 Shotput/v_Shotput_g15_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c05.avi", frames ≈ 254
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c05.avi", 254 frames
+1 videos (254 frames, 0 tvl1 flows) processed, using 2.14s, decoding speed 118.692fps, flow speed 0fps
+rgb 59 BreastStroke/v_BreastStroke_g24_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c01.avi", frames ≈ 247
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c01.avi", 247 frames
+1 videos (247 frames, 0 tvl1 flows) processed, using 1.982s, decoding speed 124.622fps, flow speed 0fps
+rgb 79 BlowDryHair/v_BlowDryHair_g01_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c01.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g25_c01.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 2.337s, decoding speed 108.258fps, flow speed 0fps
+rgb 18 WalkingWithDog/v_WalkingWithDog_g16_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g23_c06.avi", frames ≈ 129
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g23_c06.avi", 129 frames
+1 videos (129 frames, 0 tvl1 flows) processed, using 1.755s, decoding speed 73.5043fps, flow speed 0fps
+rgb 122 GolfSwing/v_GolfSwing_g25_c06.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g15_c04.avi", frames ≈ 87
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g15_c04.avi", 87 frames
+1 videos (87 frames, 0 tvl1 flows) processed, using 1.167s, decoding speed 74.5501fps, flow speed 0fps
+rgb 143 PlayingTabla/v_PlayingTabla_g03_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c02.avi", frames ≈ 235
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g11_c02.avi", 235 frames
+1 videos (235 frames, 0 tvl1 flows) processed, using 2.181s, decoding speed 107.749fps, flow speed 0fps
+rgb 101 PlayingSitar/v_PlayingSitar_g09_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g19_c01.avi", frames ≈ 118
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g19_c01.avi", 118 frames
+1 videos (118 frames, 0 tvl1 flows) processed, using 1.15s, decoding speed 102.609fps, flow speed 0fps
+rgb 164 Shotput/v_Shotput_g19_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c01.avi", frames ≈ 263
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c01.avi", 263 frames
+1 videos (263 frames, 0 tvl1 flows) processed, using 2.767s, decoding speed 95.0488fps, flow speed 0fps
+rgb 38 UnevenBars/v_UnevenBars_g15_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c02.avi", frames ≈ 240
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g06_c02.avi", 240 frames
+1 videos (240 frames, 0 tvl1 flows) processed, using 1.577s, decoding speed 152.188fps, flow speed 0fps
+rgb 80 BlowDryHair/v_BlowDryHair_g07_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c01.avi", frames ≈ 260
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g04_c01.avi", 260 frames
+1 videos (260 frames, 0 tvl1 flows) processed, using 1.453s, decoding speed 178.94fps, flow speed 0fps
+rgb 60 BreastStroke/v_BreastStroke_g14_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g01_c05.avi", frames ≈ 185
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g01_c05.avi", 185 frames
+1 videos (185 frames, 0 tvl1 flows) processed, using 1.355s, decoding speed 136.531fps, flow speed 0fps
+rgb 123 GolfSwing/v_GolfSwing_g14_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c06.avi", frames ≈ 257
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c06.avi", 257 frames
+1 videos (257 frames, 0 tvl1 flows) processed, using 1.706s, decoding speed 150.645fps, flow speed 0fps
+rgb 19 WalkingWithDog/v_WalkingWithDog_g10_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g11_c04.avi", frames ≈ 150
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g11_c04.avi", 150 frames
+1 videos (150 frames, 0 tvl1 flows) processed, using 0.952s, decoding speed 157.563fps, flow speed 0fps
+rgb 144 PlayingTabla/v_PlayingTabla_g02_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c03.avi", frames ≈ 251
+"../../data/ucf101/videos/Bowling/v_Bowling_g06_c03.avi", frames ≈ 70
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g23_c03.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 1.564s, decoding speed 160.486fps, flow speed 0fps
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g06_c03.avi", 70 frames
+1 videos (70 frames, 0 tvl1 flows) processed, using 0.644s, decoding speed 108.696fps, flow speed 0fps
+rgb 102 PlayingSitar/v_PlayingSitar_g24_c07.avi None done
+rgb 165 Shotput/v_Shotput_g03_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c03.avi", frames ≈ 236
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c03.avi", 236 frames
+1 videos (236 frames, 0 tvl1 flows) processed, using 1.525s, decoding speed 154.754fps, flow speed 0fps
+rgb 39 UnevenBars/v_UnevenBars_g08_c02.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c02.avi", frames ≈ 241
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g21_c02.avi", 241 frames
+1 videos (241 frames, 0 tvl1 flows) processed, using 1.705s, decoding speed 141.349fps, flow speed 0fps
+rgb 81 BlowDryHair/v_BlowDryHair_g04_c03.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c04.avi", frames ≈ 235
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g16_c04.avi", 235 frames
+1 videos (235 frames, 0 tvl1 flows) processed, using 1.412s, decoding speed 166.431fps, flow speed 0fps
+rgb 61 BreastStroke/v_BreastStroke_g19_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g07_c06.avi", frames ≈ 121
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g07_c06.avi", 121 frames
+1 videos (121 frames, 0 tvl1 flows) processed, using 0.849s, decoding speed 142.521fps, flow speed 0fps
+rgb 124 GolfSwing/v_GolfSwing_g24_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c02.avi", frames ≈ 253
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g02_c02.avi", 253 frames
+1 videos (253 frames, 0 tvl1 flows) processed, using 1.554s, decoding speed 162.806fps, flow speed 0fps
+rgb 20 HammerThrow/v_HammerThrow_g02_c05.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g13_c06.avi", frames ≈ 141
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g13_c06.avi", 141 frames
+1 videos (141 frames, 0 tvl1 flows) processed, using 0.981s, decoding speed 143.731fps, flow speed 0fps
+rgb 145 PlayingTabla/v_PlayingTabla_g18_c05.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c02.avi", frames ≈ 249
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g03_c02.avi", 249 frames
+1 videos (249 frames, 0 tvl1 flows) processed, using 1.853s, decoding speed 134.377fps, flow speed 0fps
+rgb 103 PlayingSitar/v_PlayingSitar_g19_c05.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g05_c02.avi", frames ≈ 128
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g05_c02.avi", 128 frames
+1 videos (128 frames, 0 tvl1 flows) processed, using 0.901s, decoding speed 142.064fps, flow speed 0fps
+rgb 166 HorseRiding/v_HorseRiding_g09_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c03.avi", frames ≈ 244
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g05_c03.avi", 244 frames
+1 videos (244 frames, 0 tvl1 flows) processed, using 1.527s, decoding speed 159.79fps, flow speed 0fps
+rgb 40 HorseRace/v_HorseRace_g02_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g03_c04.avi", frames ≈ 139
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g03_c04.avi", 139 frames
+1 videos (139 frames, 0 tvl1 flows) processed, using 1.326s, decoding speed 104.827fps, flow speed 0fps
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c01.avi", frames ≈ 256
+rgb 125 GolfSwing/v_GolfSwing_g13_c03.avi None done
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g19_c01.avi", 256 frames
+1 videos (256 frames, 0 tvl1 flows) processed, using 1.548s, decoding speed 165.375fps, flow speed 0fps
+rgb 82 RopeClimbing/v_RopeClimbing_g16_c04.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c05.avi", frames ≈ 251
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g12_c05.avi", 251 frames
+1 videos (251 frames, 0 tvl1 flows) processed, using 1.652s, decoding speed 151.937fps, flow speed 0fps
+rgb 62 BreastStroke/v_BreastStroke_g06_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g20_c04.avi", frames ≈ 126
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g20_c04.avi", 126 frames
+1 videos (126 frames, 0 tvl1 flows) processed, using 0.92s, decoding speed 136.957fps, flow speed 0fps
+rgb 168 HorseRiding/v_HorseRiding_g24_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c03.avi", frames ≈ 248
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g09_c03.avi", 248 frames
+1 videos (248 frames, 0 tvl1 flows) processed, using 2.029s, decoding speed 122.228fps, flow speed 0fps
+rgb 104 PlayingSitar/v_PlayingSitar_g19_c07.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g03_c02.avi", frames ≈ 139
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g03_c02.avi", 139 frames
+1 videos (139 frames, 0 tvl1 flows) processed, using 1.572s, decoding speed 88.4224fps, flow speed 0fps
+rgb 146 PlayingTabla/v_PlayingTabla_g10_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g08_c01.avi", frames ≈ 120
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g08_c01.avi", 120 frames
+1 videos (120 frames, 0 tvl1 flows) processed, using 1.12s, decoding speed 107.143fps, flow speed 0fps
+rgb 167 HorseRiding/v_HorseRiding_g22_c07.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c02.avi", frames ≈ 243
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g18_c02.avi", 235 frames
+1 videos (235 frames, 0 tvl1 flows) processed, using 1.906s, decoding speed 123.295fps, flow speed 0fps
+rgb 41 HorseRace/v_HorseRace_g25_c01.avi None done
+"../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c04.avi", frames ≈ 252
+extracted frames of video "../../data/ucf101/videos/JugglingBalls/v_JugglingBalls_g22_c04.avi", 252 frames
+1 videos (252 frames, 0 tvl1 flows) processed, using 2.835s, decoding speed 88.8889fps, flow speed 0fps
+rgb 83 RopeClimbing/v_RopeClimbing_g09_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g10_c07.avi", frames ≈ 105
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g10_c07.avi", 105 frames
+1 videos (105 frames, 0 tvl1 flows) processed, using 0.862s, decoding speed 121.81fps, flow speed 0fps
+rgb 189 JavelinThrow/v_JavelinThrow_g13_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g13_c03.avi", frames ≈ 119
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g13_c03.avi", 119 frames
+1 videos (119 frames, 0 tvl1 flows) processed, using 0.967s, decoding speed 123.061fps, flow speed 0fps
+rgb 273 JumpingJack/v_JumpingJack_g05_c04.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g25_c02.avi", frames ≈ 191
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g25_c02.avi", 191 frames
+1 videos (191 frames, 0 tvl1 flows) processed, using 1.849s, decoding speed 103.299fps, flow speed 0fps
+rgb 210 CuttingInKitchen/v_CuttingInKitchen_g03_c02.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g23_c05.avi", frames ≈ 135
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g23_c05.avi", 135 frames
+1 videos (135 frames, 0 tvl1 flows) processed, using 1.096s, decoding speed 123.175fps, flow speed 0fps
+rgb 169 HorseRiding/v_HorseRiding_g25_c01.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g22_c06.avi", frames ≈ 135
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g22_c06.avi", 135 frames
+1 videos (135 frames, 0 tvl1 flows) processed, using 1.168s, decoding speed 115.582fps, flow speed 0fps
+rgb 252 Fencing/v_Fencing_g03_c03.avi None done
+"../../data/ucf101/videos/Bowling/v_Bowling_g20_c05.avi", frames ≈ 146
+extracted frames of video "../../data/ucf101/videos/Bowling/v_Bowling_g20_c05.avi", 146 frames
+1 videos (146 frames, 0 tvl1 flows) processed, using 1.23s, decoding speed 118.699fps, flow speed 0fps
+rgb 231 CricketBowling/v_CricketBowling_g08_c04.avi None done
+"../../data/ucf101/videos/WalkingWithDog/v_WalkingWithDog_g20_c06.avi", frames ≈ 240
+extracted frames of video "../../data/ucf101/videos/WalkingWithDog/v_WalkingWithDog_g20_c06.avi", 240 frames
+1 videos (240 frames, 0 tvl1 flows) processed, using 1.568s, decoding speed 153.061fps, flow speed 0fps

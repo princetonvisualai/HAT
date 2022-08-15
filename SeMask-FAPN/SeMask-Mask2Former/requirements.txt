@@ -1,0 +1,10 @@
+cython
+scipy
+shapely
+timm
+h5py
+submitit
+scikit-image
+einops
+icecream
+opencv-python
