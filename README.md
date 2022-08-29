@@ -41,6 +41,13 @@ Here, we use MMAction2 as the basis for our human action recognizer in our paper
 
 Please check the [instructions](mmaction2).
 
+## Downloads
+
+We offer pre-generated files (human segmentation, inpainting frames, and original frames) for Kinetics-400 and UCF101. 
+
+[Kinetics-400](https://drive.google.com/drive/folders/1IiLGMykqUjQp0IFHB-Yl7Hk1Yzzswrgx?usp=sharing)
+[UCF101](https://drive.google.com/drive/folders/1V6hmDo6H4j1weyM6oRhWbPBniLz1gle6?usp=sharing)
+
 ## Acknowledgements
 
 We are grateful for the support from the National Science Foundation under Grant No. 2112562, Microsoft, Princeton SEAS Project X Innovation Fund, and Princeton First Year Ph.D. Fellowship to JC.
