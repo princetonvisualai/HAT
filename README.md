@@ -45,8 +45,9 @@ Please check the [instructions](mmaction2).
 
 We offer pre-generated files (human segmentation, inpainting frames, and original frames) for Kinetics-400 and UCF101. 
 
-[Kinetics-400](https://drive.google.com/drive/folders/1IiLGMykqUjQp0IFHB-Yl7Hk1Yzzswrgx?usp=sharing)
-[UCF101](https://drive.google.com/drive/folders/1V6hmDo6H4j1weyM6oRhWbPBniLz1gle6?usp=sharing)
+- [Kinetics-400](https://drive.google.com/drive/folders/1IiLGMykqUjQp0IFHB-Yl7Hk1Yzzswrgx?usp=sharing)
+- [Kinetics-400, E2FGVI as inpainting](https://drive.google.com/drive/folders/14aTyHWjS7d3L3gKf7cu9o1tY3VysRIvo?usp=sharing)
+- [UCF101](https://drive.google.com/drive/folders/1V6hmDo6H4j1weyM6oRhWbPBniLz1gle6?usp=sharing)
 
 ## Acknowledgements
 
