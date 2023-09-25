@@ -1,10 +1,10 @@
-## **Enabling Detailed Action Recognition Evaluation Through Video Dataset Augmentation** [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ff52407b80dde0f0f45814db2738464c-Abstract-Datasets_and_Benchmarks.html)
+## **Enabling Detailed Action Recognition Evaluation Through Video Dataset Augmentation**  
 *Jihoon Chung, Yu Wu, Olga Russakovsky*  
 *Princeton University*
 
 ![teaser](doc/teaser.png)
 
-This is the official implementation of [HAT](https://proceedings.neurips.cc/paper_files/paper/2022/hash/ff52407b80dde0f0f45814db2738464c-Abstract-Datasets_and_Benchmarks.html)  toolkit using [SeMask](https://github.com/Picsart-AI-Research/SeMask-Segmentation) and [E2FGVI](https://github.com/MCG-NKU/E2FGVI). Although we provide a demo usage of the toolkit using [MMAction2](https://github.com/open-mmlab/mmaction2), the toolkit can easily be implemented in other human action recognizer models. 
+This is the official implementation of [HAT](https://openreview.net/forum?id=eOnQ2etkxto) toolkit using [SeMask](https://github.com/Picsart-AI-Research/SeMask-Segmentation) and [E2FGVI](https://github.com/MCG-NKU/E2FGVI). Although we provide a demo usage of the toolkit using [MMAction2](https://github.com/open-mmlab/mmaction2), the toolkit can easily be implemented in other human action recognizer models. 
 
 
 ## Methods
